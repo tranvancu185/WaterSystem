@@ -1,0 +1,26 @@
+{
+  "name": "WaterSystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "preinstall": "cd test_react && npm i && cd ../server && npm i ",
+    "build": "cd test_react && npm run build && cd .. && ncp test_react/build server/public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranvancu185/WaterSystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tranvancu185/WaterSystem/issues"
+  },
+  "homepage": "https://github.com/tranvancu185/WaterSystem#readme",
+  "dependencies": {
+    "ncp": "^2.0.0"
+  }
+}

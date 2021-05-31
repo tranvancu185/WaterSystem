@@ -4,12 +4,10 @@ const app = express();
 const socket = require("socket.io");
 const cors = require("cors");
 const chalk = require("chalk");
+const path = require('path')
 const authRouter = require("./routes/auth");
 const postRouter = require("./routes/post");
 const mqttRouter = require("./routes/mqtt");
-
-
-
 
 
 const PORT = process.env.PORT || 5000;
@@ -33,11 +31,6 @@ const {
 } = require("node-opcua");
 
 const endpointUrl = "opc.tcp://192.168.2.3:4840";
-
-
-
-
-
 
 
 let a = 0;
@@ -115,7 +108,6 @@ io.on("connection", (socket) => {
     setTimeout(() => {
       clientMQTT.publish("NTS", 'D2D');
     }, 1500);
-    
   });
 });
 
@@ -916,3 +908,4 @@ app.use(cors());
 app.use("/api/auth", authRouter);
 app.use("/api/posts", postRouter);
 app.use("/api/mqtts", mqttRouter);
+app.use("/", express.static(path.join(__dirname, '/public')))

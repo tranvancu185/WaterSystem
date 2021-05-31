@@ -1,0 +1,36 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"[]><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 112.5 56.254" enable-background="new 0 0 112.5 56.254" xml:space="preserve">
+
+<g id="Group_180_angle_2">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="68.0352" y1="2.9275" x2="68.0352" y2="51.2786" gradientTransform="matrix(-1 0 0 -1 124.8008 59.1753)">
+	<stop offset="0" style="stop-color:#141414" />
+	<stop offset="0.45" style="stop-color:#DEDEDE" />
+	<stop offset="0.55" style="stop-color:#BFBFBF" />
+	<stop offset="0.76" style="stop-color:#6F6F6F" />
+	<stop offset="0.77" style="stop-color:#6C6C6C" />
+	<stop offset="1" style="stop-color:#141414" />
+</linearGradient>
+<rect x="55.302" y="7.897" fill="url(#SVGID_1_)" width="2.927" height="48.352" />
+<radialGradient id="SVGID_2_" cx="66.4805" cy="-181.7551" r="54.1772" gradientTransform="matrix(-1 0 0 1 125.1992 185.2764)" gradientUnits="userSpaceOnUse">
+	<stop offset="0" style="stop-color:#232323" />
+	<stop offset="0.1" style="stop-color:#232323" />
+	<stop offset="0.25" style="stop-color:#3D3D3D" />
+	<stop offset="0.36" style="stop-color:#6F6F6F" />
+	<stop offset="0.56" style="stop-color:#CBCBCB" />
+	<stop offset="0.67" style="stop-color:#9B9B9B" />
+	<stop offset="0.85" style="stop-color:#4A4A4A" />
+	<stop offset="1" style="stop-color:#252525" />
+</radialGradient>
+<path fill="url(#SVGID_2_)" d="M56.273,56.253L54.654,8.006c2.393,0,8.646,0.494,10.078-8.006h47.757  C112.489,0,113.739,56.253,56.273,56.253z" />
+<radialGradient id="SVGID_3_" cx="49.1343" cy="-181.7551" r="54.1772" gradientTransform="matrix(1 0 0 1 4.6387 185.2764)" gradientUnits="userSpaceOnUse">
+	<stop offset="0" style="stop-color:#222222" />
+	<stop offset="0.1" style="stop-color:#222222" />
+	<stop offset="0.25" style="stop-color:#3B3B3B" />
+	<stop offset="0.36" style="stop-color:#6F6F6F" />
+	<stop offset="0.56" style="stop-color:#CBCBCB" />
+	<stop offset="0.67" style="stop-color:#9B9B9B" />
+	<stop offset="0.85" style="stop-color:#4A4A4A" />
+	<stop offset="1" style="stop-color:#252525" />
+</radialGradient>
+<path fill="url(#SVGID_3_)" d="M56.218,56.253l1.62-48.247C55.444,8.006,49.19,8.5,47.759,0H0.002  C0.002,0-1.248,56.253,56.218,56.253z" />
+</g>
+</svg>
