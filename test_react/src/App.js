@@ -10,7 +10,7 @@ import ProtectedRoute from './Component/routing/ProtectedRoute';
 import AuthContextProvider from './context/AuthContext';
 import MqttContextProvider from './context/MqttContext';
 import PlanConTextProvider from './context/PlanContext';
-import Auth from './Features/Auth/Auth';
+import Auth from './features/Auth/Auth';
 
 
 function App() {
