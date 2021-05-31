@@ -1,0 +1,16 @@
+.footer-link-items{
+    color: whitesmoke;
+     width: 100%;
+     height: auto;
+     padding: 25px 50px 50px 50px;
+     background-color: #242424;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}    
+.footer-link-items li a{
+    display: block;
+    margin-top: 8px;
+    color: whitesmoke;
+    text-decoration: none;
+}

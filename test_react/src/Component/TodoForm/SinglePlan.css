@@ -1,0 +1,39 @@
+.card-plan{
+    background: linear-gradient(#283149,#404b69);
+    padding: 5px 10px 0px 10px;
+    font-weight: bold;
+    display:flex;
+    margin-top: 0.5rem;
+    margin-left:1rem;
+    border-radius:20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #26de81;
+}
+.post-title{
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    color: #e23e57;
+}
+.post-status{
+    font-weight: bold;
+    font-size: 20px;
+    color: #88304e;
+}
+.btn-edit{
+    position: absolute;
+    margin-left: 26rem;
+   
+
+}
+.post-description{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
+    color: #dbedf3;
+
+}

@@ -1,0 +1,11 @@
+table.report{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+.positionbar{
+    display: inline;
+    float: right;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}

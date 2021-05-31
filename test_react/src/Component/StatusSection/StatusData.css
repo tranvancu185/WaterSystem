@@ -1,0 +1,37 @@
+.state-container{
+    background:linear-gradient(rgba(192,192,192,0.7),rgba(255,255,255,0.8));
+    width:50vw; 
+    
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    
+}
+.label-status{
+    display:block;
+    position: absolute;
+    font-weight:bold;
+    margin-left: 18rem;
+    margin-top: 1rem;
+    font-size: 24px;
+    
+    
+}
+
+.motor-state-container,.valve-state-container{
+    display:flex;
+    font-size: 18px;
+    margin: 60px 0px 30px 20px;
+    border-radius: 20px;
+    border: 3px solid;
+
+}
+.valve-list,.motor-list,.motor-state,.valve-state{
+    margin: 20px;
+    list-style: none;
+    line-height: 28px;
+}

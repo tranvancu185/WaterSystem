@@ -1,0 +1,65 @@
+.redlight,.greenlight,.yellowlight{
+    width: 55px;
+    height: 50px;
+    display:list-item;
+    
+}
+.statusForm{
+    background:linear-gradient(rgba(192,192,192,0.7),rgba(255,255,255,0.8));
+    width:20%;
+    margin-left: 10px;
+    height: 330px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+      justify-content: center;
+      border-radius: 20px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+}
+.titleStatus{
+
+    text-align: center;
+    margin-top: -20px;
+    background-color:black;
+    color:whitesmoke;
+    font-weight: 200%;
+    border-radius: 5px;
+    
+}
+/* .system-mode{
+    font: 1em sans-serif;
+    border-bottom: none;
+} */
+.status-light{
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.system-mode{
+    font-size: 20px;
+    margin-left: 20px;
+   
+}
+Button.btn-sys-emer{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    font-size: 12px;
+    font-weight:bold;
+    border: 5px solid;
+    border-radius: 40%;
+    background-color:rgb(199, 64, 64);
+    margin-left:10rem;
+    margin-top:  -18rem;
+  
+}
+Button.btn-sys-emer:hover {background-color:#f30000}
+
+Button.btn-sys-emer:active {
+  background-color: #cecece;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

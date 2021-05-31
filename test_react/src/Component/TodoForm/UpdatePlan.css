@@ -1,0 +1,62 @@
+.update-plan-form{
+    background: linear-gradient(#1e56a0,#d6e4f0);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 10px 50px 10px;
+    line-height:30px;
+}
+.input-title{
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size:20px;
+   
+}
+.input-description{
+    width: 380px;
+    height: 80px;
+    margin-top: 10px;
+}
+.btn-cancel{
+    width: 80px;
+    height: 30px;
+    font: 1em sans-serif;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+    background-color:#d4683e;
+    color:#fff;
+
+}
+.btn-do{
+    width: 80px;
+    height: 30px;
+    font: 1em sans-serif;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+    background-color:#2ed573;
+    color:#fff;
+
+}
+.btn-close{
+    width: 80px;
+    height: 30px;
+    font: 1em sans-serif;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+    background-color:#d4683e;
+    color:#fff;
+
+}
+.status-bar{
+    width: 380px;
+    height: 40px;
+    font-weight: bold;
+    font-size:16px;
+    border-radius: 20px;
+}

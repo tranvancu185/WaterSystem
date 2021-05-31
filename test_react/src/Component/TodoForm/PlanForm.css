@@ -1,0 +1,28 @@
+.new-todo{
+    background: linear-gradient(rgba(192,192,192,0.7),rgba(255,255,255,0.8));
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px 0px 10px;
+    line-height:30px;
+    
+
+}
+.btn-addplan{
+    width: 100px;
+    height: 40px;
+    font: 1em sans-serif;
+    border-radius: 20px;
+    margin: 5px 5px 5px 5px;
+    background-color:#2ed573;
+    color:#fff;
+
+}
+.btn-floating{
+   margin-left: 13rem;
+    border-radius: 20px;
+    
+}

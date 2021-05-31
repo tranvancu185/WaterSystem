@@ -1,0 +1,31 @@
+
+
+
+.password-input,.username-input{
+    display:flex;
+    height: 7vh;
+    width: 25vw;
+    border: 2px solid #28b5b5;
+    margin: 15px 0px 15px 30px;
+    font-size:20px;
+    text-align: center;
+    
+}
+
+.login-btn{
+    width: 400px;
+    height: 50px;
+    color: #fff;
+    
+    font-size: 20px;
+    background-color: #2978b5;
+    border: 2px solid #d8e3e7;
+    font-weight:bold;
+    display: block; 
+    margin-left: 20px; 
+    border-radius:20px;
+    margin-bottom:40px;
+}
+.login-btn:hover {
+    background-color: #0061a8
+}
